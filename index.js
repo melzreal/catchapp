@@ -29,9 +29,9 @@ var Tasks = class {
 
 //todos are things you aim to do eventually, like buy a new pillowcase
 var Todos = class {
-  constructor(todos) {
+  constructor(todos, description) {
     this.todos = todos
-    this.description = null
+    this.description = description
   }
 }
 
